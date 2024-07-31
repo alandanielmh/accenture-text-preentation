@@ -49,3 +49,7 @@ Start the server
 
 ## Image/Examples
 
+![Alt text](assets/img-example.light-inicio.png)
+![Alt text](assets/img-example.light-cv.png)
+![Alt text](assets/img-example.dark-inicio.png)
+![Alt text](assets/img-example.dark-cv.png)
