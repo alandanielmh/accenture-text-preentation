@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentation Card</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body id="body-principal" class="light">
+    <article class="card-responsive">
+        <div class="card__preview-responsive">
+            <img src='assets/profileImg.png' alt="Lakeview Elegance" />
+        </div>
+        <div class="card__content-left-responsive">
+            <a href="https://www.facebook.com" class="responsive-icon" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com" class="responsive-icon" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com" class="responsive-icon" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+        <div class="card__right-responsive">
+            <div class="card__content-responsive">
+            <h2>Alan Daniel Mercado Hernández</h2>
+            <p class="card__description-responsive">
+                Frontend Developer
+            </p>
+            </div>
+            <div class="card__footer-responsive">
+            <button class="button cta-responsive modal-open-button modal-open-button-scrollable" id="modal-open-button-scrollable">View CV</button>
+            </div>
+        </div>
+    </article>
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="modal-container" id="modal-container-scrollable">
+        <div class="modal-container-controls">
+            <button class="modal-container-close-button" id="modal-container-close-button"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24"
+                height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M18 6l-12 12" />
+                <path d="M6 6l12 12" />
+            </svg></button>
+        </div>
+        <div class="modal-container-content">
+            <div class="modal-container-content-scroll">
+                <!-- <iframe class="pdf-frame" src="assets/CV.pdf#zoom=100"></iframe> -->
+                <object class="object-pdf" type="application/pdf" data="assets/CV.pdf" width="100%" height="95%"></object>
+            </div>
+        </div>
+    </div>
+    <div class="container-theme">
+        <button class="btn btn-theme" id="button-theme"><i class="fa-solid fa-sun" id="icon_theme"></i> Theme </button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
