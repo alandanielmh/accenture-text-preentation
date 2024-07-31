@@ -1,5 +1,5 @@
 
-# Accenture Tet Presentation
+# Accenture Test Presentation
 
 Proyecto hecho sobre html, css y javascript puro (Vanilla.js)
 
